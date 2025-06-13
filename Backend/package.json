@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "homepage": "//http://localhost:5173/.github.io/Kashkart/",
+  "homepage": "http://localhost:5173/.github.io/Kashkart/",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
