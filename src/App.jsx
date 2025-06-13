@@ -69,6 +69,7 @@ import OrderSuccess from './Components/Payment/OrderSuccess';
 import Jackets from './Components/Products/Jackets';
 function App() {
   const [products, setProducts] = useState([]);
+console.log("Git is tracking this change!");
 
   useEffect(() => {
     fetch('/data/products.json') // Replace with your real API or data source
