@@ -15,7 +15,6 @@ import SweatShirts from './Components/Products/SweatShirts';
 import Sweaters from './Components/Products/Sweaters';
 import BlazersCoats from './Components/Products/BlazersCoats';
 import Suits from './Components/Products/Suits';
-import Rainjackets from './Components/Products/RainJackets';
 import Pheran from './Components/Products/Pheran';
 import TurbanorSkullCap from './Components/Products/TurbanorSkullCap';
 import WaistcoatorAchkan from './Components/Products/WaistcoatorAchkan';
@@ -67,10 +66,10 @@ import Helmets from './Components/Products/Helmets';
 import Payment from './Components/Payment/Payment';
 import OrderSuccess from './Components/Payment/OrderSuccess';
 import Jackets from './Components/Products/Jackets';
+import RainJackets from "./Components/Products/RainJackets";
+
 function App() {
   const [products, setProducts] = useState([]);
-console.log("Git is tracking this change!");
-
   useEffect(() => {
     fetch('/data/products.json') // Replace with your real API or data source
       .then((res) => res.json())
@@ -103,7 +102,6 @@ console.log("Git is tracking this change!");
         <Route path="/Sweaters" element={<Sweaters />} />
         <Route path="/BlazersCoats" element={<BlazersCoats />} />
         <Route path="/Suits" element={<Suits />} />
-        <Route path="/Rainjackets" element={<Rainjackets />} />
         <Route path="/Pheran" element={<Pheran/>} />
         <Route path="/TurbanorSkullCap" element={<TurbanorSkullCap/>} />
         <Route path="/WaistcoatorAchkan" element={<WaistcoatorAchkan />} />
@@ -152,6 +150,8 @@ console.log("Git is tracking this change!");
         <Route path="/Helmets " element={<Helmets />} />
         <Route path="/Payment " element={<Payment />} />
         <Route path="/Jackets" element={<Jackets />} />
+        <Route path="/RainJackets" element={<RainJackets />} />
+        
  
 
 
