@@ -46,8 +46,8 @@ function Header() {
            <li><Link to="/Jackets" className="block p-2 -mx-2 hover:bg-gradient-to-br hover:from-pink-300 hover:via-pink-300 ease-in-out duration-300 text-gray-800 font-semibold hover:text-black hover:scale-105">Jackets</Link></li>
             <li><Link to="/BlazersCoats" className="block p-2 -mx-2 hover:bg-gradient-to-br hover:from-pink-300 hover:via-pink-300 ease-in-out duration-300 text-gray-800 font-semibold hover:text-black hover:scale-105">Blazers & Coats</Link></li>
            <li><Link to="/Suits" className="block p-2 -mx-2 hover:bg-gradient-to-br hover:from-pink-300 hover:via-pink-300 ease-in-out duration-300 text-gray-800 font-semibold hover:text-black hover:scale-105">Suits</Link></li>
-            <li><Link to="/RainJackets" className="block p-2 -mx-2 hover:bg-gradient-to-br hover:from-pink-300 hover:via-pink-300 ease-in-out duration-300 text-gray-800 font-semibold hover:text-black hover:scale-105">Rain Jackets
-          </Link></li>
+            {/*<li><Link to="/RainJacket" className="block p-2 -mx-2 hover:bg-gradient-to-br hover:from-pink-300 hover:via-pink-300 ease-in-out duration-300 text-gray-800 font-semibold hover:text-black hover:scale-105">Rain Jackets
+          </Link></li>*/}
 
           {/*-----------------------Festival Wear----------------------------- */}
           <p  className='uppercase tracking-wider text-grey-500 font-medium text-[13px] text-pink-400 leading-5 mb-3 hover:scale-105'>Kashmir & Festive wear

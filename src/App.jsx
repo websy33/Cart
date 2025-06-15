@@ -66,7 +66,9 @@ import Helmets from './Components/Products/Helmets';
 import Payment from './Components/Payment/Payment';
 import OrderSuccess from './Components/Payment/OrderSuccess';
 import Jackets from './Components/Products/Jackets';
-import RainJackets from './Components/Products/RainJackets';
+
+
+
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -150,7 +152,7 @@ function App() {
         <Route path="/Helmets " element={<Helmets />} />
         <Route path="/Payment " element={<Payment />} />
         <Route path="/Jackets" element={<Jackets />} />
-        <Route path="/RainJackets" element={<RainJackets />} />
+ 
         
  
 
